@@ -4,6 +4,9 @@
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum perferendis
     velit repudiandae quae! Dignissimos veniam vel voluptatibus adipisci
     distinctio eius dicta cum, impedit modi inventore sapiente sit harum ut iste
+    ipsam repellendus ab expedita tempora. Dignissimos nisi perspiciatis
+    necessitatibus voluptas eaque repellat culpa, neque placeat corporis, atque,
+    debitis accusamus. Eveniet magni quis voluptas esse? Ipsam culpa ut eum quia
   </p>
   <div class="button-wrapper">
     <button>click me</button>
@@ -12,9 +15,9 @@
 
 <style>
   section {
-    border: 1px solid var(--color-primary);
     border-radius: 0.3rem;
     padding: 1rem;
+    background-color: var(--color-tertiary);
     display: grid;
     grid-template-rows: min-content auto min-content;
   }

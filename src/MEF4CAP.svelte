@@ -9,14 +9,16 @@
 <style>
   h1 {
     color: var(--color-primary);
-    line-height: 4.5rem;
-    border: 1px solid black;
+    /* border: 1px solid black;
+    background-color: var(--color-tertiary); */
   }
 
   span {
     font-size: var(--font-size-h1);
     font-weight: 700;
     letter-spacing: -6px;
+    padding: 0px;
+    margin: 0px;
   }
   h1 span:nth-child(2) {
     color: var(--color-white);

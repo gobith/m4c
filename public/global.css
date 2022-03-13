@@ -20,3 +20,8 @@
     var(--font-size-h2) * var(--golden-ratio) * var(--golden-ratio)
   );
 }
+
+body {
+  margin: auto;
+  max-width: 80%;
+}
