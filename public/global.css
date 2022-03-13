@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+* {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+}
+
+:root {
+  --color-primary: #3b0064;
+  --color-secondary: #5f6b75;
+  --color-tertiary: #ddd3e7;
+  --color-complementary: #ab6800;
+  --color-white: white;
+  --color-black: black;
+
+  --golden-ratio: 1.618;
+  --font-size-paragraph: 16px;
+  --font-size-h2: calc(var(--font-size-paragraph) * var(--golden-ratio));
+  --font-size-h1: calc(
+    var(--font-size-h2) * var(--golden-ratio) * var(--golden-ratio)
+  );
+}
