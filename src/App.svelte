@@ -1,20 +1,19 @@
 <script lang="ts">
-  import Mef4Cap from "./MEF4CAP.svelte";
   import SectionPrimary from "./SectionPrimary.svelte";
   import SectionSecondary from "./SectionSecondary.svelte";
+  import Header from "./Header.svelte";
 </script>
 
-<Mef4Cap />
-<!-- <h1>Soops</h1> -->
-<div class="wrapper">
-  <SectionPrimary />
-  <SectionSecondary />
-  <SectionPrimary />
-  <SectionSecondary />
-  <SectionPrimary />
-  <SectionSecondary />
-</div>
+<Header />
 
+<!-- <div class="wrapper">
+  <SectionPrimary />
+  <SectionSecondary />
+  <SectionPrimary />
+  <SectionSecondary />
+  <SectionPrimary />
+  <SectionSecondary />
+</div> -->
 <style>
   .wrapper {
     display: grid;
