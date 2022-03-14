@@ -23,7 +23,8 @@
   header {
     background-color: var(--color-tertiary);
     text-align: center;
-    position: fixed;
+    position: sticky;
+    top: 0;
     z-index: 999;
     width: 100%;
   }
@@ -144,9 +145,9 @@
 
     nav a {
       opacity: 1;
-      position: relative;
+      /* position: relative; */
     }
-
+    /* 
     nav a::before {
       content: "";
       display: block;
@@ -162,6 +163,6 @@
 
     nav a:hover::before {
       transform: scale(1, 1);
-    }
+    } */
   }
 </style>

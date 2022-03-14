@@ -9,8 +9,8 @@
 <style>
   h1 {
     color: var(--color-primary);
-    /* border: 1px solid black;
-    background-color: var(--color-tertiary); */
+    margin: 0;
+    padding: 0.5rem;
   }
 
   span {
@@ -19,6 +19,10 @@
     letter-spacing: -6px;
     padding: 0px;
     margin: 0px;
+    display: inline-block;
+    vertical-align: top;
+    height: 0.75em;
+    line-height: 0.75em;
   }
   h1 span:nth-child(2) {
     color: var(--color-white);
