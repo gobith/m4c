@@ -11,6 +11,7 @@
     color: var(--color-primary);
     margin: 0;
     padding: 0.5rem;
+    cursor: pointer;
   }
 
   span {
@@ -23,6 +24,7 @@
     vertical-align: top;
     height: 0.75em;
     line-height: 0.75em;
+    cursor: pointer;
   }
   h1 span:nth-child(2) {
     color: var(--color-white);

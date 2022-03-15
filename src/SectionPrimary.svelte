@@ -12,11 +12,14 @@
 
 <style>
   section {
-    border: 1px solid var(--color-primary);
-    border-radius: 0.3rem;
+    /* border: 1px solid var(--color-primary); */
+    border-radius: 8px;
     padding: 1rem;
     display: grid;
     grid-template-rows: min-content auto min-content;
+
+    /* box-shadow: var(--color-primary) 0px 1px 4px; */
+    box-shadow: var(--color-tertiary) 0px 2px 8px 0px;
   }
 
   h2 {

@@ -15,7 +15,7 @@
 
 <style>
   section {
-    border-radius: 0.3rem;
+    /* border-radius: 0.3rem; */
     padding: 1rem;
     background-color: var(--color-tertiary);
     display: grid;

@@ -1,10 +1,10 @@
 <script lang="ts">
-  import Mef4Cap from "./MEF4CAP.svelte";
+  import M4C from "./M4C.svelte";
 </script>
 
 <header>
   <div class="logo">
-    <Mef4Cap />
+    <M4C />
   </div>
 
   <input type="checkbox" id="nav-toggle" class="nav-toggle" />
