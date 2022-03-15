@@ -19,7 +19,7 @@
     grid-template-rows: min-content auto min-content;
 
     /* box-shadow: var(--color-primary) 0px 1px 4px; */
-    box-shadow: var(--color-tertiary) 0px 2px 8px 0px;
+    box-shadow: hsl(0, 0%, 70%) 0px 2px 8px 0px;
   }
 
   h2 {
